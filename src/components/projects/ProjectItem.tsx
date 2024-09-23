@@ -54,6 +54,9 @@ export const ProjectItem = ({ title, description, siteLink, images }: ProjectIte
     <div className="min-h-screen flex">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-10 items-start w-full">
         <div className="col-span-1 sticky top-0 self-start p-6">
+        <div className="mt-6 h-32 w-32 mb-4 overflow-hidden rounded-full shadow-md hover:shadow-lg transition-shadow duration-300 border-4 border-gray-300 dark:border-gray-700">
+            <img src={images[0].src} alt={images[0].alt} className="w-full h-auto object-contain rounded-full transform hover:scale-105 transition-transform duration-300"/>
+        </div>
           <h3 className="text-xl sm:text-2xl font-bold text-gray-800 dark:text-white">{title}</h3>
           <p className="text-sm sm:text-base text-gray-600 dark:text-gray-300 mt-2">{description}</p>
           <div className="project-details mt-4">
@@ -86,12 +89,9 @@ export const ProjectItem = ({ title, description, siteLink, images }: ProjectIte
       )}
     </motion.div>
           </div>
-          <div className="mt-6 overflow-hidden rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300">
-            <img src={images[0].src} alt={images[0].alt} className="w-full h-auto object-cover transform hover:scale-105 transition-transform duration-300"/>
-          </div>
         </div>
         <div className="col-span-1 space-y-4 sm:space-y-10 p-6">
-          {images.map((image, index) => (
+          {images.slice(1).map((image, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 50 }}
