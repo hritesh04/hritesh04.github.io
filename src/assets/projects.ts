@@ -26,6 +26,10 @@ export const projects = [
         githubLink: "https://github.com/hritesh04/shrinkr",
         images: [
             {
+                src: "/shrinkr/logo.png",
+                alt: "shrinkr logo image"
+            },
+            {
                 src:"/shrinkr/landing.png",
                 alt:"shrinkr landing image"
             },
@@ -65,7 +69,7 @@ export const projects = [
     },
     {
         title: "Thanos",
-        description: "Thanos is a custom load balancer built with Golang. It distributes incoming requests across multiple servers, enhancing the performance and reliability of servers. Thanos uses algorithm like round-robin and leat-connections to allocate requests to available servers, ensuring balanced load and optimal resource utilization.",
+        description: "Thanos is a custom load balancer built with Golang. It distributes incoming requests across multiple servers, enhancing the performance and reliability of servers. Thanos uses algorithm like round-robin and least-connections to allocate requests to available servers, ensuring balanced load and optimal resource utilization.",
         siteLink: "https://github.com/hritesh04/thanos",
         githubLink: "https://github.com/hritesh04/thanos",
         images: [
