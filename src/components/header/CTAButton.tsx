@@ -5,7 +5,7 @@ import { GlowButton } from './GlowButton';
 export const CTAButton = () => {
   return (
     <div className="flex items-center justify-center">
-      <GlowButton href="/resume">RESUME</GlowButton>
+      <GlowButton href={import.meta.env.VITE_RESUME_URL}>RESUME</GlowButton>
     </div>
   );
 }

@@ -39,6 +39,8 @@ jobs:
         run: npm ci
       - name: Build
         run: npm run build
+        env:
+          VITE_RESUME_URL: ${{ secrets.RESUME_LINK }}
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

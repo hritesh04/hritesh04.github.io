@@ -40,6 +40,7 @@ export const GlowButton: React.FC<GlowButtonProps> = ({ children, href }) => {
           hover: { scale: 1.05 },
           tap: { scale: 0.95, backgroundColor: 'rgba(255, 255, 255, 0.2)' },
         }}
+        target="_blank"
       >
         {children}
       </motion.a>
