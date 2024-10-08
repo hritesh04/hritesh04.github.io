@@ -7,8 +7,8 @@ export const Skills = ():React.ReactNode => {
         <section className="py-12 sm:py-16 md:py-20 bg-gray-50 dark:bg-[#0e1010]">
           <div className="px-4">
             <SectionHeadline title="Skills" />
-            <div className="flex">
-            <p className="text-base text-left sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto ">Here, I showcase the programs I work with and the programming languages I master. From Photoshop to JavaScript, each skill contributes to the mosaic of my professional expertise.
+            <div className="flex flex-col lg:flex-row">
+            <p className="text-base text-left sm:text-lg md:text-xl text-gray-600 dark:text-gray-300 mb-8 sm:mb-12 max-w-3xl mx-auto ">Here, I showcase the programs I work with and the programming languages I master. Each skill contributes to the mosaic of my professional expertise.
             </p>
             <SkillList>
               <SkillItem name="HTML5" />

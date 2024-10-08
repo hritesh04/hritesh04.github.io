@@ -14,7 +14,7 @@ export const NavLinks = () => {
 
     return (
         <div className="hidden sm:flex space-x-4 md:space-x-12">
-            <a 
+            {/* <a 
                 href="#projects" 
                 onClick={(e) => handleClick(e, 'projects')}
                 className="text-sm md:text-xl text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-150 ease-in-out"
@@ -34,7 +34,7 @@ export const NavLinks = () => {
                 className="text-sm md:text-xl text-gray-600 dark:text-gray-300 hover:text-gray-900 dark:hover:text-white transition duration-150 ease-in-out"
             >
                 Blog
-            </a>
+            </a> */}
         </div>
     );
 }

@@ -6,11 +6,11 @@ export const About = ():React.ReactNode => {
           <div className="px-4">
             <SectionHeadline title="About" />
             <div className="flex flex-col md:flex-row items-center md:items-start space-y-8 md:space-y-0 md:space-x-12">
-              <div className="w-64 h-64 md:w-1/3 md:h-auto">
+              <div className="w-80 h-80 md:w-1/3 md:h-auto">
                 <img 
-                  src="/path-to-your-image.jpg" 
+                  src="/profile_pic.jpeg" 
                   alt="Hritesh Mondal" 
-                  className="w-full h-full object-cover rounded-full shadow-lg"
+                  className="w-full h-full object-cover rounded-lg"
                 />
               </div>
               <div className="md:w-2/3">

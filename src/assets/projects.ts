@@ -78,13 +78,17 @@ export const projects = [
                 alt: "thanos logo image"
             },
             {
-                src: "/thanos/logo.png",
-                alt: "thanos logo image"
+                src: "/thanos/config.png",
+                alt: "thanos config file image"
             },
             {
-                src: "/thanos/logo.png",
-                alt: "thanos logo image"
+                src: "/thanos/logs.png",
+                alt: "thanos log image"
             },
+            {
+                src: "/thanos/log_file.png",
+                alt: "thanos log file image",
+            }
         ]   
     }
 ]
